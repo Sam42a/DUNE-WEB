@@ -20,19 +20,21 @@
         android:id="@+id/urlInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@drawable/card_focused_border"
         android:hint="https://yourserver.com"
         android:imeOptions="actionGo"
         android:inputType="textUri"
         android:padding="16dp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/connectButton"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:background="@drawable/card_focused_border"
         android:paddingStart="32dp"
         android:paddingEnd="32dp"
         android:text="Connect"
